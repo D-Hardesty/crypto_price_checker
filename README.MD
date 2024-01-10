@@ -23,7 +23,7 @@ pip install pycoingecko pandas
 python crypto_price_fetcher.py
 ```
 
-##Notes
+## Notes
 -If there are errors fetching prices for specific coins, check for spelling errors or incorrect IDs in the coins.csv file.
 
 -The script uses the CoinGecko API, so an internet connection is required.
