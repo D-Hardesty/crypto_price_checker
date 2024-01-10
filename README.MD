@@ -13,6 +13,7 @@ This Python script fetches the current USD prices of multiple cryptocurrencies u
 
 ```bash
 pip install pycoingecko pandas
+```
 
 2. Prepare a CSV file (coins.csv) with a column named "coin" containing the list of cryptocurrency names or IDs.
 
@@ -20,6 +21,7 @@ pip install pycoingecko pandas
 
 ```bash  
 python crypto_price_fetcher.py
+```
 
 ##Notes
 -If there are errors fetching prices for specific coins, check for spelling errors or incorrect IDs in the coins.csv file.
